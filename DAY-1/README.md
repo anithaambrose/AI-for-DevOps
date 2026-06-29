@@ -1,4 +1,4 @@
-<img width="1440" height="664" alt="image" src="https://github.com/user-attachments/assets/f484a15f-01ac-4681-b9a7-1d728e030c15" />
+
 # 📅 Day 1 Agenda
 
 Today, we're going to understand **what AI actually is** from a software engineer's perspective.
