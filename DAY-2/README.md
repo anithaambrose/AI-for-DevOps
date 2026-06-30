@@ -1,4 +1,4 @@
-# 🚀 Welcome to Day 2: Your First AI Program.
+# 🚀 Day 2 Agenda - API CALL & RESPONSE
 
 Today, you'll build something real: a Python program that talks to an AI model and gets a response back.
 
