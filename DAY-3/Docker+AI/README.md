@@ -8,11 +8,20 @@ Before AI can help you write Dockerfiles, you need the mental model:### Now use 
 
 Before Dockerfiles, here's the pain: "it works on my machine" but breaks in production because of different OS versions, missing dependencies, different Python versions, etc.
 
-Docker's fix: **package your app + everything it needs into one portable unit** that runs identically everywhere — your laptop, a teammate's laptop, AWS, anywhere.## The 7 instructions that make up 95% of all Dockerfiles
+Docker's fix: **package your app + everything it needs into one portable unit** that runs identically everywhere — your laptop, a teammate's laptop, AWS, anywhere.
 
-You don't need to memorize Docker — you need to recognize what AI generates and know if it's correct. Here's every instruction explained:## The single most important concept: layer caching
+<img width="1440" height="606" alt="image" src="https://github.com/user-attachments/assets/b19abc46-c042-4ece-8438-2730514a80a0" />
 
-This is the #1 thing that separates a junior-written Dockerfile from a senior-written one, and it's also the #1 thing AI gets wrong if you don't prompt for it.## Now: using AI to write Dockerfiles correctly
+The 7 instructions that make up 95% of all Dockerfiles
+
+<img width="1440" height="800" alt="image" src="https://github.com/user-attachments/assets/0b5c59c3-5043-4c24-b38f-2da2145169c1" />
+
+The single most important concept: layer caching
+
+This is the #1 thing that separates a junior-written Dockerfile from a senior-written one, and it's also the #1 thing AI gets wrong if you don't prompt for it.## 
+
+<img width="1440" height="708" alt="image" src="https://github.com/user-attachments/assets/c33c561b-b0de-42d8-9fc9-c06888ade912" />
+
 
 Here's the exact prompt template — use this format every time and AI will get layer ordering, security, and size right:
 
