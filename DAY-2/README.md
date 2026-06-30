@@ -219,9 +219,13 @@ Replace YOUR_API_KEY_HERE with your actual API key.
 ## ✅ Why This Matters for DevOps
 
 | You ask   | AI returns | 
+
 | "Check disk usage" | df -h |
+
 | "Compress logs" | tar -czvf logs.tar.gz logs/ |
+
 | "Find listening ports" | ss -tulnp |
+
 | "Check Kubernetes pods" | kubectl get pods -A |
 
 You have built a Linux command assistant.
