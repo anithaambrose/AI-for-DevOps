@@ -103,9 +103,12 @@ Explain what an OOMKill is and how to fix it in Kubernetes. Use bullet points."
 `
 Run the script again.
 
-## 🎯 Today's Challenge 1 - Go to Simple Projects Folder
 
-Create a new file called devops_helper.py 
+## 🎯 Today's Challenge 1 
+
+Go to Simple Projects Folder
+
+Create a new file called Interactive_Devops_AI_Assistant.py
 
 The program should ask the user for a question:
 
@@ -136,7 +139,7 @@ Output: 🤖 DevOps AI Assistant — type 'quit' to exit
   
   **Kubernetes (K8s) is an open-source container orchestration platform that automates deploying, scaling, and managing containerized applications.**
   
-  ---
+
 ## 🎯 Today's Challenge 2  - Go to Simple Projects Folder 
 
 Create a new file called AICmdAssistant.py
