@@ -1,6 +1,8 @@
 # Module 3 — K8s Debugging with AI ☸️
 
-This is where AI gives juniors an **instant superpower**. Real Kubernetes errors are cryptic. AI turns them into plain English + a fix.
+This is where AI gives juniors an **instant superpower**. Real Kubernetes errors are cryptic.
+
+AI turns them into plain English + a fix.
 
 Here's the cheat sheet of the most common errors you'll see — and the exact prompt to diagnose each one:---
 
@@ -20,7 +22,9 @@ If you remember nothing else from this module, remember this:
 kubectl describe pod <pod-name>
 ```
 
-Scroll to the bottom — the **Events** section. That's where the real story lives. Everything above it (labels, IPs, mounts) is just metadata. The Events section is a timeline of exactly what Kubernetes tried and what failed.
+Scroll to the bottom — the **Events** section. That's where the real story lives.
+
+Everything above it (labels, IPs, mounts) is just metadata. The Events section is a timeline of exactly what Kubernetes tried and what failed.
 
 <img width="1440" height="888" alt="image" src="https://github.com/user-attachments/assets/08e5c08b-cf95-46d3-bcd6-f6e238aad3bd" />
 
@@ -57,7 +61,9 @@ kubectl logs --previous output:
 What is the root cause and the exact fix? If you need more info to be certain, tell me what additional command to run.
 ```
 
-That last line — *"if you need more info, tell me what to run"* — is a power move. It turns AI into an interactive debugging partner instead of a one-shot guesser, and it's exactly how a senior engineer would actually approach an unfamiliar problem.
+That last line — *"if you need more info, tell me what to run"* — is a power move. 
+
+It turns AI into an interactive debugging partner instead of a one-shot guesser, and it's exactly how a senior engineer would actually approach an unfamiliar problem.
 
 ## Practice it right now — simulated scenario
 
