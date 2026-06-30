@@ -13,30 +13,30 @@ Send a prompt to an AI model
 Receive and print the response
 `
 
-### Under current folder - refer to apicall-demo.py program 
+ Under current folder - refer to apicall-demo.py program 
 
-## Step 1: Create a Project Folder
+### Step 1: Create a Project Folder
 Open your terminal and run:
 
-## Step 2: Create a Python Virtual Environment in visual code 
+### Step 2: Create a Python Virtual Environment in visual code 
 
-## Step 3: Install the SDK in Terminal 
+### Step 3: Install the SDK in Terminal 
 sudo apt install python3
 pip install anthropic
 
-## Step 4: Get an API Key
+### Step 4: Get an API Key
 Go to Claude Platform
 Create an account - buy credits
 Generate an API key , Copy the key
 
 Important: Never share your API key publicly, save them in .env 
 
-## Step 5: Set the API Key in Your Terminal
+### Step 5: Set the API Key in Your Terminal
 
 On macOS/Linux: using EXPORT KEY = value
 On Windows (PowerShell): as env variable
 
-## Step 6: Create Your First AI Program
+### Step 6: Create Your First AI Program
 
 Create a file called apicall-demo.py
 
@@ -60,11 +60,11 @@ message = client.messages.create(
 )
 print(message.content[0].text)
 ```
-## Step 7: Run the Program
+### Step 7: Run the Program
 
 🎉 Congratulations — you just built your first API call is made.
 
-🧠 Understanding Every Line
+## 🧠 Understanding Every Line
 1. Import the SDK - This gives your Python program the ability to talk to the AI service.
 
 2. Create a Client - This authenticates your program using your API key.
@@ -81,12 +81,12 @@ The user's question
 
 The AI's answer comes back in a structured object, and this line extracts the text.
 
-🛠️ Mini Exercise - Project-1.py
+## 🛠️ Mini Exercise - Project-1.py
 
 Change the user prompt to: "Explain what an OOMKill is and how to fix it in Kubernetes. Use bullet points."
 Run the script again.
 
-🎯 Today's Challenge 1 - Go to Simple Projects Folder
+## 🎯 Today's Challenge 1 - Go to Simple Projects Folder
 
 Create a new file called devops_helper.py 
 
@@ -115,7 +115,7 @@ Output: 🤖 DevOps AI Assistant — type 'quit' to exit
   **Kubernetes (K8s) is an open-source container orchestration platform that automates deploying, scaling, and managing containerized applications.**
   
   ---
-🎯 Today's Challenge 2  - Go to Simple Projects Folder 
+## 🎯 Today's Challenge 2  - Go to Simple Projects Folder 
 
 Create a new file called AICmdAssistant.py
 Example:
@@ -128,13 +128,13 @@ Find files larger than 2GB
 Output
 find / -type f -size +2G
 
-# Do this using OpenAI.
+ ` Do this using OpenAI.`
 
-Step 1: Install the OpenAI package
+### Step 1: Install the OpenAI package
 Open Terminal and run:
 
 
-Step 2: Get an API key
+### Step 2: Get an API key
 
 For learning, you can use OpenAI's API (paid) or a free alternative later. Since the goal is understanding the workflow, we'll use the standard approach first.
 
@@ -143,7 +143,7 @@ Go to: platform.openai.com/api-keys
 Create a new secret key and copy it.
 Keep it private. Never upload it to GitHub.
 
-Step 3: Create your AI script
+### Step 3: Create your AI script
 Create a file named ai_cmd_assistant.py and paste this code:
 
 ```
@@ -170,9 +170,9 @@ print(message.content[0].text)
 
 Replace YOUR_API_KEY_HERE with your actual API key.
 
-Step 4: Run it to display output of linux commands.
+### Step 4: Run it to display output of linux commands.
 
-💡 Understand Every Line
+## 💡 Understand Every Line
 
 👉🏻 from openai import OpenAI - Imports the OpenAI library.
 
@@ -184,7 +184,7 @@ Step 4: Run it to display output of linux commands.
 
 👉🏻 print(response.choices[0].message.content) - Prints the AI's answer.
 
-✅ Why This Matters for DevOps
+## ✅ Why This Matters for DevOps
 
 | You ask   | AI returns | 
 | "Check disk usage" | df -h |
@@ -194,7 +194,7 @@ Step 4: Run it to display output of linux commands.
 
 You have built a Linux command assistant.
 
-🏁 End of Day 2
+## 🏁 End of Day 2
 
 Once you've completed the challenge, you'll officially have:
 
