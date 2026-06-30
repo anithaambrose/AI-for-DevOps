@@ -1,8 +1,8 @@
-🚀 Welcome to Day 2: Your First AI Program.
+# 🚀 Welcome to Day 2: Your First AI Program.
 
 Today, you'll build something real: a Python program that talks to an AI model and gets a response back.
 
-🎯 Today's Goal
+## 🎯 Today's Goal
 
 By the end of Day 2, you'll:
 `
@@ -13,20 +13,18 @@ Send a prompt to an AI model
 Receive and print the response
 `
 
-# Under current folder - refer to apicall-demo.py program 
+### Under current folder - refer to apicall-demo.py program 
 
 ## Step 1: Create a Project Folder
 Open your terminal and run:
 
-## Step 2: Create a Python Virtual Environment
+## Step 2: Create a Python Virtual Environment in visual code 
 
-On Windows:
+## Step 3: Install the SDK in Terminal 
+sudo apt install python3
+pip install anthropic
 
-## Step 3: Install the OpenAI SDK
 ## Step 4: Get an API Key
-
-Option A (Recommended): Claude - Anthropic
-
 Go to Claude Platform
 Create an account - buy credits
 Generate an API key , Copy the key
@@ -35,8 +33,8 @@ Important: Never share your API key publicly, save them in .env
 
 ## Step 5: Set the API Key in Your Terminal
 
-On macOS/Linux:
-On Windows (PowerShell):
+On macOS/Linux: using EXPORT KEY = value
+On Windows (PowerShell): as env variable
 
 ## Step 6: Create Your First AI Program
 
