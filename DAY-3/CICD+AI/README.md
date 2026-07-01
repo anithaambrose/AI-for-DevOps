@@ -34,12 +34,10 @@ Write a GitHub Actions workflow for:
 
 Explain each job and step with inline comments.
 ```
-
-#### Checkout CICd.py Prompt generator script 
+### Checkout CICd.py Prompt generator script 
 
 ## PROMPT OUTPUT:
 ```
-
 (base) Mac:firstproject anithaambrose$ python CICD.py 
 ```yaml
 name: CI/CD Pipeline
